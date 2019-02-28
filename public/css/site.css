@@ -1,0 +1,427 @@
+@font-face{
+
+	font-family: "atena";
+
+	src: url('../font/atena.ttf') format("TrueType");
+
+}
+
+
+
+body h1{
+
+	font-family: atena;
+
+}
+
+
+
+.galaxia{
+
+	background: url('../imagens/1.jpg') no-repeat center  ;
+
+	background-size: cover;
+
+}
+
+.fundo{
+
+	background: url('../imagens/1.jpg') no-repeat center;
+
+	background-size: cover;
+
+	animation-name: fundo;
+
+	animation-duration: 30s;
+
+
+
+}
+
+
+
+
+
+.simbolos{
+
+	font-size: 20px;
+
+}
+
+
+
+@keyframes fundo {
+
+
+
+	0%   {background-size: 100% 100%;}
+
+	50%{ background-size: 200% 200%; }
+
+	100%{ background-size: 100% 100%; ;}
+
+}
+
+
+
+
+
+.marca{
+
+	padding: 10px;
+
+}
+
+
+
+
+
+
+
+.marca a{
+
+	cursor: pointer;
+
+	text-decoration: none;
+
+	color: white;
+
+	border: 1px solid white;
+
+	padding: 10px;
+
+}
+
+
+
+.menu{
+
+	font-family: atena;
+
+	font-size: 18px;
+
+	color: black;
+
+	padding: 10px;
+
+}
+
+
+
+.menu ul{
+
+	list-style: none;
+
+	float: right;
+
+}
+
+
+
+.menu ul li{
+
+	position: relative;
+
+	float: left;
+
+	padding :10px;
+
+}
+
+
+
+.menu ul a{
+
+	text-decoration: none;
+
+	cursor: pointer;
+
+	transition: 0.5s;
+
+	color: white;
+
+
+
+}
+
+
+
+.menu li:hover {
+
+	background-color: white;
+
+	transition: 0.5s;
+
+	border-radius: 3px;
+
+}
+
+
+
+.menu li:hover a {
+
+
+
+	color: black;
+
+	transition: 0.5s;
+
+
+
+}
+
+
+
+/* HOME */
+
+.intro{
+
+	color: white;
+
+	padding-top: 1%;
+
+	text-align: center;
+
+}
+
+
+
+.logo{
+
+	width: 350px;
+
+	animation-name: logo;
+
+	animation-duration: 4s;
+
+
+
+}
+
+
+
+
+
+
+
+.menu{
+
+	animation-name: menu;
+
+	animation-duration: 1.5s;
+
+}
+
+@keyframes logo{
+
+	from   { opacity: 0.0;}
+
+	to{ opacity: 1.0; }
+
+}
+
+
+
+@keyframes menu{
+
+	from   { top: -100px;}
+
+	to{ top: 0px; }
+
+}
+
+
+
+/* HOME */
+
+
+
+/* 	QUEM SOMOS */
+
+.logo-quem-somos{
+
+	animation-name: logo;
+
+	animation-duration: 4s;
+
+
+
+}
+
+
+
+.texto-quem-somos{
+
+	position: relative;
+
+	animation-name: quemsomos;
+
+	animation-duration:3s;
+
+}
+
+
+
+@keyframes quemsomos{
+
+		from   { right: -600px;}
+
+	to{ right:  0px; }
+
+}
+
+
+
+
+
+.quem-somos{
+
+	padding: 2%;
+
+	overflow: hidden;
+
+	
+
+}
+
+
+
+/* 	QUEM SOMOS */
+
+
+
+/* 	EQUIPE  */
+
+
+
+.texto-equipe{
+
+	margin-bottom: 40px;
+
+	animation-name: equipe;
+
+	animation-duration: 5s;
+
+}
+
+
+
+@keyframes equipe{
+
+	from   { opacity: 0.0;}
+
+	to{ opacity: 1.0; }
+
+}
+
+
+
+.perfil{
+
+	text-align: center;
+
+	margin-top: 4%;
+
+}
+
+
+
+.foto{
+
+	margin: 0 auto;
+
+	background-size: 120% 120%; background-position: center;
+
+}
+
+
+
+.equipe .foto{
+
+	background-color: gray;
+
+	 height: 150px; 
+
+	 width: 150px;
+
+	 border-radius: 100%;
+
+	 transition: 0.5s;
+
+}
+
+
+
+.equipe .foto:hover{
+
+	 height: 140px; 
+
+	 width: 140px;
+
+	 transition: 0.5s;
+
+}
+
+
+
+
+
+.hastag{
+
+	margin-bottom: 2%;
+
+	margin-top: 10px;
+
+	text-align: center;
+
+	animation-name: equipe;
+
+	animation-duration: 5s;
+
+}
+
+
+
+.icon-ideia{
+
+	animation-name: ideia;
+
+	animation-duration: 4s;
+
+	animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes ideia{
+
+
+
+	0%{ opacity: 0.1; }
+
+	50%{ opacity: 1.0; }
+
+	100%{ opacity: 0.1; }
+
+}
+
+
+
+
+
+/* 	EQUIPE  */
+
+
+
+
+
+/* 	SERVICOS  */
+
+
+
+
+
+
+
+/* 	SERVICOS */

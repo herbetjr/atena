@@ -1,0 +1,44 @@
+
+header{
+	padding:15px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	top:0;
+
+}
+
+.banner{
+
+	background: url('../imagens/1.jpg') no-repeat center  ;
+	background-size:  cover;
+	height: 80vh;
+	position: relative;
+	
+}
+li.nav-item{
+	transition: 1s;
+	border-radius: 5px;
+}
+
+li.nav-item:hover{
+	background-color: white;
+	border-radius: 5px;
+	transition: 1s;
+}
+
+li.nav-item:hover a.nav-link{
+	color: #363636;
+}
+
+a.nav-link{
+	color: #DCDCDC;
+}
+
+
+
+
+
+
