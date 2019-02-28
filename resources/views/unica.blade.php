@@ -58,9 +58,76 @@
 
 
 </header>
+
+    <style type="text/css">
+    .img1{
+        animation-name: a;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+        opacity: 0.0;
+    }
+        .img2{
+        animation-name: b;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+        opacity: 0.0;
+    }
+
+    .img3{
+        animation-name: c;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+        opacity: 0.0;
+    }
+
+
+    @keyframes a {
+
+        0%   {opacity: 0.0;}]
+         5%   {opacity: 0.25;}
+        25%  {opacity: 1.0;}
+        50%{ opacity:0.0;}
+        75%  {opacity: 0.0;}
+        100%{opacity: 0.0; }
+    }
+      @keyframes b {
+
+        0%   {opacity: 0.0;}
+         25%  {opacity: 0.0;}
+        50%{ opacity: 1.0;}
+          75%{ opacity: 0.0;}
+        100%{opacity: 0.0; }
+    }
+
+      @keyframes c{
+
+         0%   {opacity: 0.0;}
+         25%  {opacity: 0.0;}
+        50%{ opacity: 0.0;}
+          75%{ opacity: 1.0;}
+        100%{opacity: 0.0; }
+    }
+
+    
+
+
+   
+
+
+
+
+
+</style>
 <section class="banner container-fluid">
-    <div style="text-align: center; padding-top: 230px; color: white; width: 500px; max-width: 75%; margin: 0 auto;">
+    <div style="position: relative; text-align: center; padding-top: 230px; color: white; width: 500px; max-width: 75%; margin: 0 auto; z-index: 99999999">
         <h1 style="box-shadow: 1px 1px 30px gray;text-shadow: 4px 4px 10px black; font-size: 50px; border: 4px solid  white; padding: 20px 0px 20px 0px; background-color: rgba(0,0,0,0.5);">Solucões criativas</h1>
+    </div>
+    <div style="position: absolute; top: 180px;  width: 98%;">
+        <center>
+        <img class="img1" src="imagens/desenvolvimento.png" width="250px" style="position: absolute;">
+         <img class="img2" src="imagens/design.png" width="250px" style="position: absolute;">
+        <img class="img3" src="imagens/marketing.png" width="250px">
+    </center>
     </div>
 
 </section>
@@ -109,6 +176,20 @@
         });
     });
 </script>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5b8ee1ffafc2c34e96e83756/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 </body>
 </html>
