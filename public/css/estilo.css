@@ -3,7 +3,7 @@ header{
 	padding:15px;
 	color: white;
 	background-color: rgba(0,0,0,0.5);
-	position: fixed;
+	position: absolute;
 	z-index: 9999;
 	width: 100%;
 	top:0;
@@ -16,6 +16,7 @@ header{
 	background-size:  cover;
 	height: 80vh;
 	position: relative;
+  background-attachment: fixed;
 	
 }
 li.nav-item{
@@ -37,53 +38,52 @@ a.nav-link{
 	color: #DCDCDC;
 }
 
-.img1{
-        animation-name: a;
-        animation-duration: 25s;
-        animation-iteration-count: infinite;
-        opacity: 0.0;
-    }
-        .img2{
-        animation-name: b;
-        animation-duration: 25s;
-        animation-iteration-count: infinite;
-        opacity: 0.0;
-    }
-
-    .img3{
-        animation-name: c;
-        animation-duration: 25s;
-        animation-iteration-count: infinite;
-        opacity: 0.0;
-    }
 
 
-    @keyframes a {
+.nosso-time{
+  background: url("../imagens/time.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+   background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 
-        0%   {opacity: 0.0;}]
-         5%   {opacity: 0.25;}
-        25%  {opacity: 1.0;}
-        50%{ opacity:0.0;}
-        75%  {opacity: 0.0;}
-        100%{opacity: 0.0; }
-    }
-      @keyframes b {
+}
 
-        0%   {opacity: 0.0;}
-         25%  {opacity: 0.0;}
-        50%{ opacity: 1.0;}
-          75%{ opacity: 0.0;}
-        100%{opacity: 0.0; }
-    }
+.perfil{
 
-      @keyframes c{
+  text-align: center;
 
-         0%   {opacity: 0.0;}
-         25%  {opacity: 0.0;}
-        50%{ opacity: 0.0;}
-          75%{ opacity: 1.0;}
-        100%{opacity: 0.0; }
-    }
+  margin-top: 4%;
+
+}
+
+
+
+.foto{
+
+  margin: 0 auto;
+
+  background-size: 120% 120%; background-position: center;
+
+}
+
+
+
+.nosso-time .foto{
+
+  background-color: gray;
+
+   height: 150px; 
+
+   width: 150px;
+
+   border-radius: 100%;
+
+   transition: 0.5s;
+
+}
+
 
 
 
