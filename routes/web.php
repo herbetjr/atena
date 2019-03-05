@@ -11,9 +11,11 @@
 |
 */
  
-
-Route::get('/', function () {
+Route::get('/novosite', function () {
     return view('unica');
+});
+Route::get('/', function () {
+    return view('site.home');
 });
 
 Route::get('/home', function () {
