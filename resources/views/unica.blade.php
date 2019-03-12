@@ -232,9 +232,23 @@
         <div class="col-sm-12 mb-3 ">
             <p class="text-center mt-4"><i class="material-icons" style="font-size: 90px;"> widgets</i></p>
             <h1 style="width: 300px; text-align: center; margin: 10px  auto; border-radius: 5px; border-top: 2px solid black;"> SERVIÇOS </h1>
-        </div>
+        </div>      
         
     </div>
+     <div class="row p-3 text-center">
+            <div class="col-sm-4">
+                <h3>Criação de Websites</h3>
+            </div>
+            <div class="col-sm-4">
+                <img src="imagens/website.png" style="width:100%;">
+            </div>
+            <div class="col-sm-4">
+                <h3>Desenvolvimento de Sistemas</h3>
+            </div>
+
+        </div>
+        
+    
 </section>
 
 
