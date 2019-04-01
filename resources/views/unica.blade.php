@@ -39,7 +39,7 @@
                         <a class="nav-link scroll" href="#nosso-time">NOSSO TIME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="#">SERVIÇOS</a>
+                        <a class="nav-link scroll"  href="#servicos">SERVIÇOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">CASE</a>
@@ -120,7 +120,7 @@
 </style>
 <section class="banner container-fluid">
     <div style="position: relative; text-align: center; padding-top: 230px; color: white; width: 500px; max-width: 75%; margin: 0 auto; z-index: 999">
-        <h1 style="box-shadow: 1px 1px 30px gray;text-shadow: 4px 4px 10px black; font-size: 50px; border: 4px solid  white; padding: 20px 0px 20px 0px; background-color: rgba(0,0,0,0.5);">Solucões criativas</h1>
+        <h1 style="box-shadow: 1px 1px 30px gray;text-shadow: 4px 4px 10px black; font-size: 50px; border: 4px solid  white; padding: 20px 0px 20px 0px; background-color: rgba(0,0,0,0.5);">Soluções criativas</h1>
     </div>
     <div style="position: absolute; top: 180px;  width: 98%;">
         <center>
@@ -227,7 +227,7 @@
         
     </div>
 </section>
-<section class="quem-somos container-fluid" id="quem-somos" > 
+<section class="quem-somos container-fluid" id="servicos" > 
     <div class="row">
         <div class="col-sm-12 mb-3 ">
             <p class="text-center mt-4"><i class="material-icons" style="font-size: 90px;"> widgets</i></p>
@@ -238,17 +238,49 @@
      <div class="row p-3 text-center">
             <div class="col-sm-4">
                 <h3>Criação de Websites</h3>
+                <p class="text-muted">Trabalhamos com sites profissionais e administráveis sejam eles estáticos ou dinâmicos.  </p>
             </div>
+             <div class="col-sm-4">
+                <h3>Desenvolvimentos de Sistemas</h3>
+                <p class="text-muted">Trabalhamos com sites profissionais e administráveis sejam eles estáticos ou dinâmicos.  </p>
+            </div>
+             <div class="col-sm-4">
+                <h3>Identidade Visual</h3>
+                <p class="text-muted">Buscamos entender a sua marca, criamos uma identidade visual autêntica.  </p>
+            </div>
+              <div class="col-sm-4">
+                <h3>Criação</h3>
+                <p class="text-muted">  </p>
+            </div>
+             <div class="col-sm-4">
+                <h3>Marketing digital</h3>
+                <p class="text-muted">  </p>
+            </div>
+            
+            
+
+        </div>       
+    
+</section>
+
+<section class="container-fluid contador" >
+     <div class="row p-3 text-center text-light " style="background-color: rgba(0,0,0,0.7);">
             <div class="col-sm-4">
-                <img src="imagens/website.png" style="width:100%;">
+                 <i class="material-icons" style="font-size: 50px;">person_pin</i>
+                <p class="">Cliente Felizes <br>25</p>
             </div>
-            <div class="col-sm-4">
-                <h3>Desenvolvimento de Sistemas</h3>
+             <div class="col-sm-4">
+                <i class="material-icons" style="font-size: 50px;">battery_charging_full</i>
+                <p>Cafés tomados <br> 12536</p>
             </div>
+             <div class="col-sm-4">
+                 <i class="material-icons" style="font-size: 50px;">developer_board</i>
+                <p>Horas de código <br> 1253</p>
+            </div>            
+            
+            
 
         </div>
-        
-    
 </section>
 
 
