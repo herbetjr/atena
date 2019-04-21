@@ -16,8 +16,9 @@
 <body >
  <header class="container-fluid">
         <div class="row">
-            <div class="col-sm-4 text-center">
-                <img src="imagens/logo-branca.png" style="width: 200px;">
+            <div class="col-sm-4 text-center" style="font-family: atena;">
+                <!--<img src="imagens/logo-branca.png" style="width: 200px;">-->
+                <h1>ATENA</h1>
             </div>
             <div class="col-sm-8">
                 <nav class="navbar navbar-expand-md justify-content-center  ">
@@ -39,16 +40,16 @@
                         <a class="nav-link scroll" href="#nosso-time">NOSSO TIME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll"  href="#servicos">SERVIÇOS</a>
+                        <a class="nav-link"  href="#servicos">SERVIÇOS</a>
                     </li>
-                    <li class="nav-item">
+                  <!--  <li class="nav-item">
                         <a class="nav-link" href="#">CASE</a>
-                    </li> 
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">CLIENTES</a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTATO</a>
+                        <a class="nav-link  scroll" href="#contato">CONTATO</a>
                     </li> 
                 </ul>
             </div> 
@@ -110,17 +111,11 @@
 
 
 
-
-
-
-
-
-
-
 </style>
 <section class="banner container-fluid">
+   
     <div style="position: relative; text-align: center; padding-top: 230px; color: white; width: 500px; max-width: 75%; margin: 0 auto; z-index: 999">
-        <h1 style="box-shadow: 1px 1px 30px gray;text-shadow: 4px 4px 10px black; font-size: 50px; border: 4px solid  white; padding: 20px 0px 20px 0px; background-color: rgba(0,0,0,0.5);">Soluções criativas</h1>
+        <h1 style="box-shadow: 1px 1px 30px gray;text-shadow: 4px 4px 10px black; font-size: 40px; border: 4px solid  white; padding: 20px 0px 20px 0px; background-color: rgba(0,0,0,0.5);font-family: atena">Soluções criativas</h1>
     </div>
     <div style="position: absolute; top: 180px;  width: 98%;">
         <center>
@@ -237,23 +232,28 @@
     </div>
      <div class="row p-3 text-center">
             <div class="col-sm-4">
+                <img src="imagens/icon/icon_web.png" style="width: 200px;">
                 <h3>Criação de Websites</h3>
                 <p class="text-muted">Trabalhamos com sites profissionais e administráveis sejam eles estáticos ou dinâmicos.  </p>
             </div>
              <div class="col-sm-4">
+                 <img src="imagens/icon/icon_sis.png" style="width: 200px;">
                 <h3>Desenvolvimentos de Sistemas</h3>
                 <p class="text-muted">Trabalhamos com sites profissionais e administráveis sejam eles estáticos ou dinâmicos.  </p>
             </div>
              <div class="col-sm-4">
+                 <img src="imagens/icon/icon_iden.png" style="width: 200px;">
                 <h3>Identidade Visual</h3>
                 <p class="text-muted">Buscamos entender a sua marca, criamos uma identidade visual autêntica.  </p>
             </div>
               <div class="col-sm-4">
+                 <img src="imagens/icon/icon_cri.png" style="width: 200px;">
                 <h3>Criação</h3>
                 <p class="text-muted">  </p>
             </div>
              <div class="col-sm-4">
-                <h3>Marketing digital</h3>
+                 <img src="imagens/icon/icon_mkt.png" style="width: 200px;">
+                <h3>Marketing Digital</h3>
                 <p class="text-muted">  </p>
             </div>
             
@@ -267,21 +267,51 @@
      <div class="row p-3 text-center text-light " style="background-color: rgba(0,0,0,0.7);">
             <div class="col-sm-4">
                  <i class="material-icons" style="font-size: 50px;">person_pin</i>
-                <p class="">Cliente Felizes <br>25</p>
+                <p class="">Clientes Felizes <br>25</p>
             </div>
              <div class="col-sm-4">
                 <i class="material-icons" style="font-size: 50px;">battery_charging_full</i>
-                <p>Cafés tomados <br> 12536</p>
+                <p>Cafés Tomados <br> 12536</p>
             </div>
              <div class="col-sm-4">
                  <i class="material-icons" style="font-size: 50px;">developer_board</i>
-                <p>Horas de código <br> 1253</p>
+                <p>Horas de Código <br> 1253</p>
             </div>            
             
             
 
         </div>
 </section>
+
+<section class="quem-somos container-fluid" id="contato" > 
+    <div class="row">
+        <div class="col-sm-12 mb-3 ">
+            <p class="text-center mt-4"><i class="material-icons" style="font-size: 90px;"> speaker_notes</i></p>
+            <h1 style="width: 300px; text-align: center; margin: 10px  auto; border-radius: 5px; border-top: 2px solid black;"> Contato </h1>
+        </div> 
+
+        <div class="col-sm-4 text-center">
+            <p><i style="font-size: 30px;" class="material-icons">mail</i> contato@atenaagencia.com</p>
+            <p><i style="font-size: 30px;" class="material-icons">phone</i> (74) 98811-4876 | (74) 98852-6642</p>
+            <p><i style="font-size: 30px;" class="material-icons">alternate_email</i> atenaagencia (Facebook | Instagram) </p>
+            <p>Fale conosco pelo chat pelo ícone no canto direito ou pelo link: <br> <br>
+                <a class="btn btn-dark btn-block" href="https://tawk.to/chat/5b8ee1ffafc2c34e96e83756/default" target="_blank"> Chat Atena Agencia</a>
+            </p>
+            
+        </div> 
+         <div class="col-sm-8">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.0069291127229!2d-40.50292047451233!3d-9.41897012417169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x77371b1fd13e53b%3A0x7b48231abffb18f0!2sR.+Manoel+da+Paix%C3%A3o%2C+Juazeiro+-+BA!5e0!3m2!1spt-BR!2sbr!4v1555805652573!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe> 
+        </div>      
+        
+  
+    
+      </div>
+</section>
+
+<footer class=" text-white text-center " style="background-color: black;">
+    <p class="p-3"> Atena Agência - Soluções Criativas</p>
+
+</footer>
 
 
 

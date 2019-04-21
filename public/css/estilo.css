@@ -1,4 +1,10 @@
+@font-face{
 
+  font-family: "atena";
+
+  src: url('../font/atena.ttf') format("TrueType");
+
+}
 header{
 	padding:15px;
 	color: white;
@@ -12,7 +18,7 @@ header{
 
 .banner{
 
-	background: url('../imagens/4.jpg')  center  ;
+	background: url('../imagens/1.jpg')  center  ;
 	background-size: cover;
 	height: 80vh;
 	position: relative;
