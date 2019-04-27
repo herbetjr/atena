@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8"/>
-    <title>ATENA SOLUCÕES CRIATIVAS</title>
+    <title>ATENA AGÊNCIA - SOLUCÕES CRIATIVAS</title>
     <meta http-equiv="cache-control"   content="no-cache" />
     <meta http-equiv="pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
@@ -14,39 +14,40 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body >
- <header class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4 text-center" style="font-family: atena;">
-                <!--<img src="imagens/logo-branca.png" style="width: 200px;">-->
-                <h1>ATENA</h1>
-            </div>
-            <div class="col-sm-8">
-                <nav class="navbar navbar-expand-md justify-content-center  ">
-                  <!-- Brand -->
+   <header class="container-fluid" id="topo">
+    <div class="row">
+        <div class="col-sm-4 text-center" style="font-family: atena;">
+            <!--<img src="imagens/logo-branca.png" style="width: 200px;">-->
+            <h1 style="margin: 0px; padding: 0px;">ATENA</h1>
+            <h5 style="margin: 0px; padding: 0px;">AGÊNCIA</h5>
+        </div>
+        <div class="col-sm-8">
+            <nav class="navbar navbar-expand-md justify-content-center  ">
+              <!-- Brand -->
 
 
-                  <!-- Toggler/collapsibe Button -->
-                  <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
-                    <i class="material-icons" style="font-size: 30px;">menu</i>
-                </button>
+              <!-- Toggler/collapsibe Button -->
+              <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+                <i class="material-icons" style="font-size: 30px;">menu</i>
+            </button>
 
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-                    <ul class="navbar-nav text-center">
-                      <li class="nav-item">
-                        <a class="nav-link scroll" href="#quem-somos" >QUEM SOMOS</a>
-                    </li>
-                    <li class="nav-item" >
-                        <a class="nav-link scroll" href="#nosso-time">NOSSO TIME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="#servicos">SERVIÇOS</a>
-                    </li>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link scroll" href="#quem-somos" >QUEM SOMOS</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link scroll" href="#nosso-time">NOSSO TIME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="#servicos">SERVIÇOS</a>
+                </li>
                   <!--  <li class="nav-item">
                         <a class="nav-link" href="#">CASE</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CLIENTES</a>
+                        <a class="nav-link scroll" href="#clientes">CLIENTES</a>
                     </li> 
                     <li class="nav-item">
                         <a class="nav-link  scroll" href="#contato">CONTATO</a>
@@ -61,59 +62,59 @@
 </header>
 
 <style type="text/css">
-.img1{
-    animation-name: a;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    opacity: 0.0;
-}
-.img2{
-    animation-name: b;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    opacity: 0.0;
-}
+    .img1{
+        animation-name: a;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+        opacity: 0.0;
+    }
+    .img2{
+        animation-name: b;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+        opacity: 0.0;
+    }
 
-.img3{
-    animation-name: c;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    opacity: 0.0;
-}
+    .img3{
+        animation-name: c;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+        opacity: 0.0;
+    }
 
 
-@keyframes a {
+    @keyframes a {
 
-    0%   {opacity: 0.0;}]
-    5%   {opacity: 0.25;}
-    25%  {opacity: 1.0;}
-    50%{ opacity:0.0;}
-    75%  {opacity: 0.0;}
-    100%{opacity: 0.0; }
-}
-@keyframes b {
+        0%   {opacity: 0.0;}]
+        5%   {opacity: 0.25;}
+        25%  {opacity: 1.0;}
+        50%{ opacity:0.0;}
+        75%  {opacity: 0.0;}
+        100%{opacity: 0.0; }
+    }
+    @keyframes b {
 
-    0%   {opacity: 0.0;}
-    25%  {opacity: 0.0;}
-    50%{ opacity: 1.0;}
-    75%{ opacity: 0.0;}
-    100%{opacity: 0.0; }
-}
+        0%   {opacity: 0.0;}
+        25%  {opacity: 0.0;}
+        50%{ opacity: 1.0;}
+        75%{ opacity: 0.0;}
+        100%{opacity: 0.0; }
+    }
 
-@keyframes c{
+    @keyframes c{
 
-   0%   {opacity: 0.0;}
-   25%  {opacity: 0.0;}
-   50%{ opacity: 0.0;}
-   75%{ opacity: 1.0;}
-   100%{opacity: 0.0; }
-}
+     0%   {opacity: 0.0;}
+     25%  {opacity: 0.0;}
+     50%{ opacity: 0.0;}
+     75%{ opacity: 1.0;}
+     100%{opacity: 0.0; }
+ }
 
 
 
 </style>
 <section class="banner container-fluid">
-   
+
     <div style="position: relative; text-align: center; padding-top: 230px; color: white; width: 500px; max-width: 75%; margin: 0 auto; z-index: 999">
         <h1 style="box-shadow: 1px 1px 30px gray;text-shadow: 4px 4px 10px black; font-size: 40px; border: 4px solid  white; padding: 20px 0px 20px 0px; background-color: rgba(0,0,0,0.5);font-family: atena">Soluções criativas</h1>
     </div>
@@ -126,7 +127,7 @@
     </div>
 
 </section>
-<section class="quem-somos container-fluid" id="quem-somos" > 
+<section class="quem-somos container-fluid" id="quem-somos"  > 
     <div class="row">
         <div class="col-sm-12 mb-3 ">
             <p class="text-center mt-4"><img src="imagens/templo.png" width="90px;"></p>
@@ -175,38 +176,38 @@
         <div class="col-sm-12">
             <h1 style="width: 300px; text-align: center; margin: 10px  auto; border-radius: 5px; border-bottom: 2px solid white;">#TEAM ATENA</h1>
         </div>
-       <div class="perfil col-sm-4" >
-            
+        <div class="perfil col-sm-4" >
+
             <a href="https://www.facebook.com/herbet.junior" target="_blank"><div class="foto" style="background-image: url('imagens/imagens-equipe/herbet.jpg'); ">
-                
+
             </div></a>
 
             <div class="legenda-pefil">
                 <h4><b>Herbet Junior</b> </h4>
 
-           CEO | Gestão de desenvolvimento
+                CEO | Gestão de desenvolvimento
                 
             </div>
 
         </div>   
-          <div class="perfil col-sm-4" >
-            
+        <div class="perfil col-sm-4" >
+
             <a href="https://www.facebook.com/evanise.paula" target="_blank"><div class="foto" style="background-image: url('imagens/imagens-equipe/eva.jpeg'); ">
-                
+
             </div></a>
 
             <div class="legenda-pefil">
                 <h4><b>Evanise Paula</b> </h4>
 
-            CEO | Gestão de projetos
+                CEO | Gestão de projetos
                 
             </div>
 
         </div>  
         <div class="perfil col-sm-4" >
-            
+
             <a href="https://www.facebook.com/italamay.andrade" target="_blank"><div class="foto" style="background-image: url('imagens/imagens-equipe/itala.jpg'); ">
-                
+
             </div></a>
 
             <div class="legenda-pefil">
@@ -230,83 +231,129 @@
         </div>      
         
     </div>
-     <div class="row p-3 text-center">
-            <div class="col-sm-4">
-                <img src="imagens/icon/icon_web.png" style="width: 200px;">
-                <h3>Criação de Websites</h3>
-                <p class="text-muted">Trabalhamos com sites profissionais e administráveis sejam eles estáticos ou dinâmicos.  </p>
-            </div>
-             <div class="col-sm-4">
-                 <img src="imagens/icon/icon_sis.png" style="width: 200px;">
-                <h3>Desenvolvimentos de Sistemas</h3>
-                <p class="text-muted">Trabalhamos com sites profissionais e administráveis sejam eles estáticos ou dinâmicos.  </p>
-            </div>
-             <div class="col-sm-4">
-                 <img src="imagens/icon/icon_iden.png" style="width: 200px;">
-                <h3>Identidade Visual</h3>
-                <p class="text-muted">Buscamos entender a sua marca, criamos uma identidade visual autêntica.  </p>
-            </div>
-              <div class="col-sm-4">
-                 <img src="imagens/icon/icon_cri.png" style="width: 200px;">
-                <h3>Criação</h3>
-                <p class="text-muted">  </p>
-            </div>
-             <div class="col-sm-4">
-                 <img src="imagens/icon/icon_mkt.png" style="width: 200px;">
-                <h3>Marketing Digital</h3>
-                <p class="text-muted">  </p>
-            </div>
-            
-            
-
-        </div>       
-    
-</section>
-
-<section class="container-fluid contador" >
-     <div class="row p-3 text-center text-light " style="background-color: rgba(0,0,0,0.7);">
-            <div class="col-sm-4">
-                 <i class="material-icons" style="font-size: 50px;">person_pin</i>
-                <p class="">Clientes Felizes <br>25</p>
-            </div>
-             <div class="col-sm-4">
-                <i class="material-icons" style="font-size: 50px;">battery_charging_full</i>
-                <p>Cafés Tomados <br> 12536</p>
-            </div>
-             <div class="col-sm-4">
-                 <i class="material-icons" style="font-size: 50px;">developer_board</i>
-                <p>Horas de Código <br> 1253</p>
-            </div>            
-            
-            
-
+    <div class="row p-3 text-center">
+        <div class="col-sm-4">
+            <img src="imagens/icon/icon_web.png" style="width: 200px;">
+            <h3>Criação de Websites</h3>
+            <p class="text-muted">Trabalhamos com sites profissionais e administráveis sejam eles estáticos ou dinâmicos.  </p>
         </div>
+        <div class="col-sm-4">
+           <img src="imagens/icon/icon_sis.png" style="width: 200px;">
+           <h3>Desenvolvimentos de Sistemas</h3>
+           <p class="text-muted">Desenvolvimento de sistemas personalizados, e de gestão. </p>
+       </div>
+       <div class="col-sm-4">
+           <img src="imagens/icon/icon_iden.png" style="width: 200px;">
+           <h3>Identidade Visual</h3>
+           <p class="text-muted">Buscamos entender a sua marca, criamos uma identidade visual autêntica.  </p>
+       </div>
+       <div class="col-sm-4">
+           <img src="imagens/icon/icon_cri.png" style="width: 200px;">
+           <h3>Criação</h3>
+           <p class="text-muted">Com intuito de produzir peças, ações e campanhas publicitárias como: institucionais, comerciais, governamental, artísticas. Compondo também a promoção ou venda de uma empresa, trazendo o fortalecimento de uma marca.  </p>
+       </div>
+       <div class="col-sm-4">
+           <img src="imagens/icon/icon_mkt.png" style="width: 200px;">
+           <h3>Marketing Digital</h3>
+           <p class="text-muted"> Promover estratégias, anteriormente estudadas para ser aplicadas online pelas empresas, atraindo novos negócios, gerando relacionamentos, aprimorando novas identidades das marcas. Nas principais táticas estão o SEO, Inbound Marketing e o Marketing de Conteúdo. </p>
+       </div>
+
+
+
+   </div>       
+
 </section>
 
-<section class="quem-somos container-fluid" id="contato" > 
+<section class="container-fluid contador" id="contador" >
+   <div class="row p-3 text-center text-light " style="background-color: rgba(0,0,0,0.7);">
+    <div class="col-sm-4">
+       <i class="material-icons" style="font-size: 50px;">person_pin</i>
+       <p class="">Clientes Felizes <br><span class="count">5</span></p>
+   </div>
+   <div class="col-sm-4">
+    <i class="material-icons" style="font-size: 50px;">battery_charging_full</i>
+    <p>Cafés Tomados <br> <span class="count">2500</span></p>
+</div>
+<div class="col-sm-4">
+   <i class="material-icons" style="font-size: 50px;">developer_board</i>
+   <p>Horas de Código <br> <span class="count">960</span></p>
+</div>            
+
+</div>
+</section>
+<section class="quem-somos container-fluid" id="clientes" >
+   <div class="row">
+    <div class="col-sm-12 mb-3 ">
+        <p class="text-center mt-4"><i class="material-icons" style="font-size: 90px;"> people</i></p>
+        <h1 style="width: 300px; text-align: center; margin: 10px  auto; border-radius: 5px; border-top: 2px solid black;"> CLIENTES </h1>
+    </div>      
+
+</div>
+<div class="row" style="padding: 5px;">
+    <style type="text/css">
+        div.filtro{
+          overflow: hidden;
+              filter: grayscale(100%);
+              transition: 0.5s;
+        }
+        div.filtro:hover{
+              filter: grayscale(0%);
+              transition: 0.5s;
+              border: 3px solid purple;
+              border-radius: 10px;
+        }
+        div.filtro:hover img{
+          width: 105%;
+          transition: 0.5s;
+        }
+    </style>
+    <div class="col-sm-4 filtro">
+        <img src="imagens/clientes/01.png" width="100%">
+    </div>
+    <div class="col-sm-4 filtro">
+        <img src="imagens/clientes/02.png" width="100%">
+  </div>
+  <div class="col-sm-4 filtro">
+      <img src="imagens/clientes/03.png" width="100%">
+  </div>
+  <div class="col-sm-4 filtro">
+  <img src="imagens/clientes/04.png" width="100%">
+  </div>
+  <div class="col-sm-4 filtro">
+  <img src="imagens/clientes/05.png" width="100%">
+  </div>
+
+</div>
+
+</section>
+
+<section class="quem-somos container-fluid bg-dark"  id="contato" > 
     <div class="row">
-        <div class="col-sm-12 mb-3 ">
+        <div class="col-sm-12 mb-3 text-white ">
             <p class="text-center mt-4"><i class="material-icons" style="font-size: 90px;"> speaker_notes</i></p>
-            <h1 style="width: 300px; text-align: center; margin: 10px  auto; border-radius: 5px; border-top: 2px solid black;"> Contato </h1>
+            <h1 style="width: 300px; text-align: center; margin: 10px  auto; border-radius: 5px; border-top: 2px solid white;"> Contato </h1>
         </div> 
 
-        <div class="col-sm-4 text-center">
+        <div class="col-sm-6 text-center text-white">
             <p><i style="font-size: 30px;" class="material-icons">mail</i> contato@atenaagencia.com</p>
             <p><i style="font-size: 30px;" class="material-icons">phone</i> (74) 98811-4876 | (74) 98852-6642</p>
             <p><i style="font-size: 30px;" class="material-icons">alternate_email</i> atenaagencia (Facebook | Instagram) </p>
             <p>Fale conosco pelo chat pelo ícone no canto direito ou pelo link: <br> <br>
-                <a class="btn btn-dark btn-block" href="https://tawk.to/chat/5b8ee1ffafc2c34e96e83756/default" target="_blank"> Chat Atena Agencia</a>
+                <a class="btn btn-light btn-block" href="https://tawk.to/chat/5b8ee1ffafc2c34e96e83756/default" target="_blank"> Chat Atena Agencia</a>
             </p>
             
         </div> 
-         <div class="col-sm-8">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.0069291127229!2d-40.50292047451233!3d-9.41897012417169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x77371b1fd13e53b%3A0x7b48231abffb18f0!2sR.+Manoel+da+Paix%C3%A3o%2C+Juazeiro+-+BA!5e0!3m2!1spt-BR!2sbr!4v1555805652573!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe> 
-        </div>      
-        
-  
-    
-      </div>
+        <div class="col-sm-6">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.0069291127229!2d-40.50292047451233!3d-9.41897012417169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x77371b1fd13e53b%3A0x7b48231abffb18f0!2sR.+Manoel+da+Paix%C3%A3o%2C+Juazeiro+-+BA!5e0!3m2!1spt-BR!2sbr!4v1555805652573!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:4px solid white; border-radius: 5px;" allowfullscreen></iframe> 
+     </div>      
+
+
+
+ </div>
 </section>
+<div style="position: fixed; right: 25px; bottom: 10px;">
+    <a id="btntopo" href="#topo" class="scroll btn btn-light" style="border:1px solid gray;"><i class="material-icons">keyboard_capslock</i></a>
+</div>
 
 <footer class=" text-white text-center " style="background-color: black;">
     <p class="p-3"> Atena Agência - Soluções Criativas</p>
@@ -315,16 +362,7 @@
 
 
 
-
-
-<script type="text/javascript">
-    jQuery(document).ready(function($) { 
-        $(".scroll").click(function(){        
-
-            $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
-        });
-    });
-</script>
+<script src="/js/animations.js"></script>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">

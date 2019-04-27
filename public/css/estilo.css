@@ -18,23 +18,24 @@ header{
 
 .banner{
 
-	background: url('../imagens/1.jpg')  center  ;
-	background-size: cover;
+	background: url('../imagens/1.jpg');
+	/*background-size: cover;*/
 	height: 80vh;
 	position: relative;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   animation-name: galaxia;
-    animation-duration: 120s;
+   animation-timing-function: linear;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
+     animation-direction: alternate;  
 
 	
 }
 
-@keyframes 74855454{
-   0%   {background-position: 0px;}
-   50%   {background-position: 1024px; }
-   100%   {background-position: 0px;}
+@keyframes galaxia{
+   0%   {background-position: 0 0;}
+   100%   {background-position: 100% 0;}
 }
 li.nav-item{
 	transition: 1s;

@@ -11,10 +11,10 @@
 |
 */
  
-Route::get('/novosite', function () {
+Route::get('/', function () {
     return view('unica');
 });
-Route::get('/', function () {
+Route::get('/antigo', function () {
     return view('site.home');
 });
 
