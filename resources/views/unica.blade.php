@@ -351,7 +351,7 @@
 
  </div>
 </section>
-<div style="position: fixed; right: 25px; bottom: 10px;">
+<div style="position: fixed; left: 25px; bottom: 10px;">
     <a id="btntopo" href="#topo" class="scroll btn btn-light" style="border:1px solid gray;"><i class="material-icons">keyboard_capslock</i></a>
 </div>
 
