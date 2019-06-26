@@ -410,12 +410,13 @@
     </div>
 
     <footer class="container-fluid text-white text-center " style="background-color: black;">
-        <div class="text-right">
-            <a href="#">Acesso Restrito</a>
-            <a href="https://webmail.umbler.com/">WebMail</a>
-        </div>
+       
         <div>
             <p class="p-3"> Atena Agência - Soluções Criativas</p>
+        </div>
+         <div class="">
+            <a class="text-white" href="#">Acesso Restrito</a>
+            <a class="text-white" href="https://webmail.umbler.com/">WebMail</a>
         </div>
     </footer>
 
