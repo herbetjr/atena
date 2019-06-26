@@ -161,7 +161,7 @@
     </style>
     <section class="banner container-fluid">
 
-        <div style="position: relative; text-align: center; padding-top: 230px; color: white; width: 500px; max-width: 75%; margin: 0 auto; z-index: 999">
+        <!-- <div style="position: relative; text-align: center; padding-top: 230px; color: white; width: 500px; max-width: 75%; margin: 0 auto; z-index: 999">
             <h1 style="box-shadow: 1px 1px 30px gray;text-shadow: 4px 4px 10px black; font-size: 40px; border: 4px solid  white; padding: 20px 0px 20px 0px; background-color: rgba(0,0,0,0.5);font-family: atena">Soluções criativas</h1>
         </div>
         <div style="position: absolute; top: 180px;  width: 98%;">
@@ -170,7 +170,7 @@
                 <img class="img2" src="imagens/design.png" width="250px" style="position: absolute;">
                 <img class="img3" src="imagens/marketing.png" width="250px">
             </center>
-        </div>
+        </div> -->
 
     </section>
     <section class="quem-somos container-fluid" id="quem-somos">
