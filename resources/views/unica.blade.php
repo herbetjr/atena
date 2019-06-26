@@ -337,7 +337,7 @@
         <div class="col-sm-6 text-center text-white">
             <p><i style="font-size: 30px;" class="material-icons">mail</i> contato@atenaagencia.com</p>
             <p><i style="font-size: 30px;" class="material-icons">phone</i> (74) 98811-4876 | (74) 98852-6642</p>
-            <p><i style="font-size: 30px;" class="material-icons">alternate_email</i> atenaagencia (Facebook | Instagram) </p>
+            <p><i style="font-size: 30px;" class="material-icons">alternate_email</i> atenaagencia (Facebook | Instagram) </p> 
             <p>Fale conosco pelo chat pelo ícone no canto direito ou pelo link: <br> <br>
                 <a class="btn btn-light btn-block" href="https://tawk.to/chat/5b8ee1ffafc2c34e96e83756/default" target="_blank"> Chat Atena Agencia</a>
             </p>
