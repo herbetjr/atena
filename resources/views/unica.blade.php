@@ -183,7 +183,7 @@
             <div class="col-sm-6 " style="text-align: justify;">
 
 
-                Com nome inspirado na Atena, deusa da sabedoria e artes, pertencente a mitologia grega. A Startup Atena- Soluções Criativas busca enfrentar cada desafio proposto por nossos clientes de maneira criativa e rápida para entregar os melhores resultados possíveis.<br> <br>
+                Com nome inspirado na Atena, deusa da sabedoria e artes, pertencente a mitologia grega. A Startup Atena Agência - Soluções Criativas busca enfrentar cada desafio proposto por nossos clientes de maneira criativa e rápida para entregar os melhores resultados possíveis.<br> <br>
 
                 Trabalhamos com Desenvolvimento web, Publicidade, Web design e Marketing Digital, conciliando comprometimento e seriedade com capacitação e evolução tecnológica, buscando como princípio fundamental a satisfação do cliente.
                 <br><br>
@@ -195,8 +195,8 @@
                             my_location
                         </i><br>
                         <b>Nossa Missão</b> <br>
-
-                        Permitir às pessoas e empresas incorporar a tecnologia ao seu negócio. <br><br>
+                        Inovar nas criações, com eficiência e qualidade; objetivando a comunicação dos clientes e nos possibilitando a conquista dos melhores resultados.
+                        <br><br>
                     </div>
                     <div class="col-sm-4">
                         <i class="material-icons" style="font-size: 50px;">
@@ -204,7 +204,7 @@
                         </i><br>
                         <b>Nossa Visão</b> <br>
 
-                        Disponibilizar às pessoas e empresas sites e sistemas de alta qualidade com ótimo custo benefício. <br><br>
+                        Ser referência no mercado digital e reconhecida por seus clientes pela sua qualidade e eficiência<br><br>
                     </div>
                     <div class="col-sm-4">
                         <i class="material-icons" style="font-size: 50px;">
@@ -410,11 +410,11 @@
     </div>
 
     <footer class="container-fluid text-white text-center " style="background-color: black;">
-       
+
         <div>
             <p class="p-3"> Atena Agência - Soluções Criativas</p>
         </div>
-         <div class="">
+        <div class="">
             <a class="text-white" href="#">Acesso Restrito</a>
             <a class="text-white" href="https://webmail.umbler.com/">WebMail</a>
         </div>
