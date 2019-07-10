@@ -195,7 +195,8 @@
                             my_location
                         </i><br>
                         <b>Nossa Missão</b> <br>
-                        Inovar nas criações, com eficiência e qualidade; objetivando a comunicação dos clientes e nos possibilitando a conquista dos melhores resultados.
+                        Inovar nas criações, com eficiência e qualidade; objetivando a comunicação dos clientes e possibilitar a conquista dos melhores resultados.
+
                         <br><br>
                     </div>
                     <div class="col-sm-4">
