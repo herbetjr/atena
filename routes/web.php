@@ -52,7 +52,7 @@ Route::get('index', function () {
 });
 
 Route::get('/digiweek',function(){
-    return redirect('http://atenaagencia.com/digiweek');
+    return redirect(url('http://atenaagencia.com/digiweek'));
 });
 
 
